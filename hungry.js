@@ -15,8 +15,9 @@ else
   console.log('do your homework');
   answer = readlineSync.question('are you thristy?');
   if (answer == 'yes'){
-    console.log('dring water');
-    console.log('dring soda');
-    console.log('coke');
+    console.log('drink soda');
+    console.log('drink coke');
+    console.log('drink fanta');
+    console.log('drink pina colada');
   }
 }
