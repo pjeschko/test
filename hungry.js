@@ -14,5 +14,6 @@ else
   answer = readlineSync.question('are you thristy?');
   if (answer == 'yes'){
     console.log('dring water');
+    console.log('dring soda');
   }
 }
