@@ -10,6 +10,6 @@ const rl = readline.createInterface({
 rl.question('Are you hungry? ', (answer) => {
   // TODO: Log the answer in a database
   console.log(`Thank you for your valuable feedback: ${answer}`);
-  console.log('nix ssssss');
+
   rl.close();
 });
