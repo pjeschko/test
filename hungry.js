@@ -6,6 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
+// I just add some comments
 rl.question('Are you hungry? ', (answer) => {
   // TODO: Log the answer in a database
   console.log(`Thank you for your valuable feedback: ${answer}`);
