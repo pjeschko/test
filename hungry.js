@@ -7,6 +7,8 @@ if (answer == 'yes')
   console.log('eat pizza');
   console.log('eat burger');
   console.log('eat noodles');
+  console.log('eat steak');
+  console.log('eat pasta');
 }
 else
 {
