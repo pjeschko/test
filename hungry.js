@@ -1,15 +1,18 @@
-const readline = require('readline');
+var readlineSync = require('readline-sync');
 
-// define input and outuput
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+var answer = readlineSync.question('are you hungry?');
 
-// I just add some comments
-rl.question('Are you hungry? ', (answer) => {
-  // TODO: Log the answer in a database
-  console.log(`Thank you for your valuable feedback: ${answer}`);
-
-  rl.close();
-});
+if (answer == 'yes')
+{
+  console.log('eat pizza');
+  console.log('eat burger');
+  console.log('eat noodles');
+}
+else
+{
+  console.log('do your homework');
+  answer = readlineSync.question('are you thristy?');
+  if (answer == 'yes'){
+    console.log('dring water');
+  }
+}
